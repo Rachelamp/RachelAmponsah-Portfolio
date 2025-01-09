@@ -31,7 +31,7 @@ body, html {
 }
 
 .navbar a {
-    margin-right: 20px;
+
     text-decoration: none;
     color: white; /* Light color for better contrast */
     font-size: 1rem;
