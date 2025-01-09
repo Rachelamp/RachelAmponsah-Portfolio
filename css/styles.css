@@ -8,24 +8,26 @@ body, html {
 
 /* Navbar */
 .navbar {
-    position: absolute; /* Make it overlay on top of the image */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Ensure it spans the full width */
-    z-index: 10; /* Bring it in front of the image */
-    padding: 10px 50px; /* Add spacing around the links */
-    background: none; /* Remove the white background */
+    width: 100%; /* Ensures the navbar spans the entire width */
+    padding: 10px 30px;
+    box-sizing: border-box; /* Includes padding in the width */
+    z-index: 10;
+    background: none;
+    overflow: hidden; /* Prevents any content from overflowing */
 }
+
 .navbar ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
-    margin-right: 200px;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Align navbar links to the right */
-    gap: 20px;
-    width: 100%;
-    flex-wrap: nowrap;
+    justify-content: center; /* Centers the links horizontally */
+    gap: 20px; /* Space between links */
+    max-width: 100%; /* Prevents overflow beyond the screen */
+    overflow-x: hidden; /* Hides any extra horizontal overflow */
 }
 
 .navbar li {
@@ -33,12 +35,12 @@ body, html {
 }
 
 .navbar a {
-
     text-decoration: none;
-    color: white; /* Light color for better contrast */
-    font-size: 1rem;
+    color: white;
+    font-size: 1rem; /* Adjust as needed */
     font-weight: bold;
-    transition: color 0.3s;
+    white-space: nowrap; /* Prevents text wrapping onto the next line */
+    transition: color 0.3s ease-in-out;
 
 
 .navbar a:last-child {
