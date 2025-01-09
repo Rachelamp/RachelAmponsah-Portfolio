@@ -24,7 +24,7 @@ body, html {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centers the links horizontally */
+    justify-content: flex-end; 
     gap: 20px; /* Space between links */
     max-width: 100%; /* Prevents overflow beyond the screen */
     overflow-x: hidden; /* Hides any extra horizontal overflow */
