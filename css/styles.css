@@ -19,10 +19,12 @@ body, html {
 .navbar ul {
     list-style-type: none;
     margin: 0;
+    margin-left: 40px;
     padding: 0;
     display: flex;
     justify-content: flex-end; /* Align navbar links to the right */
-    gap: 15px;
+    gap: 20px;
+    width: 100%;
     flex-wrap: nowrap;
 }
 
