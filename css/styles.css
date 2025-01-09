@@ -13,7 +13,7 @@ body, html {
     left: 0;
     width: 100%; /* Ensure it spans the full width */
     z-index: 10; /* Bring it in front of the image */
-    padding: 10px 20px; /* Add spacing around the links */
+    padding: 10px 50px; /* Add spacing around the links */
     background: none; /* Remove the white background */
 }
 .navbar ul {
@@ -23,6 +23,7 @@ body, html {
     display: flex;
     justify-content: flex-end; /* Align navbar links to the right */
     gap: 15px;
+    flex-wrap: nowrap;
 }
 
 .navbar li {
@@ -30,12 +31,20 @@ body, html {
 }
 
 .navbar a {
+    margin-right: 20px;
     text-decoration: none;
     color: white; /* Light color for better contrast */
     font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s;
+
+
+.navbar a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
 }
+
+}
+
 
 .navbar a:hover {
     color: #007bff; /* Highlight color on hover */
