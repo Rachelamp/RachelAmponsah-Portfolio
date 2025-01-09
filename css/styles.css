@@ -19,7 +19,7 @@ body, html {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    margin-right: 40px;
+    margin-right: 80px;
     padding: 0;
     display: flex;
     justify-content: flex-end; /* Align navbar links to the right */
