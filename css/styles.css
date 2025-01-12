@@ -98,7 +98,6 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Prevent image overflow */
     background-color: white; /* Optional for better visibility */
 }
 
