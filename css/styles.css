@@ -54,6 +54,10 @@ body, html {
     color: #007bff; /* Highlight color on hover */
 }
 
+.navbar .active {
+    color: #007bff; /* Highlight active page */
+}
+
 /* Hero Section */
 .hero {
     height: 100vh; /* Full screen height */
@@ -81,29 +85,101 @@ body, html {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
 }
 
-#flipbook {
-    width: 420px; /* Match the width of pages */
-    height: 595px; /* Match the height of pages */
-    margin: 0 auto; /* Center the flipbook on the page */
-    position: relative; /* Required for Turn.js */
-   
-   
-
+/* About Page Layout */
+.about-page {
+    max-width: 1200px;
+    margin: 0 auto; /* Center content */
+    padding: 30px;
 }
 
-.page {
-    width: 100%; /* Matches flipbook width */
-    height: 100%; /* Matches flipbook height */
-    position: absolute;
+/* Header Section */
+.about-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* About Intro Section */
+.about-intro {
     display: flex;
+    gap: 30px;
     align-items: center;
-    justify-content: center;
-    background-color: white; /* Optional for better visibility */
+    margin-bottom: 50px;
 }
 
-.page img {
-    width: 100%; /* Scale image to fit width */
-    height: 100%; /* Scale image to fit height */
-    object-fit: contain; /* Ensures images don’t stretch or distort */
+.about-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1; /* Makes text fill remaining space */
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Goals and Aspirations Section */
+.goals-section {
+    margin-top: 50px;
+}
+
+.goals-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.goals-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap; /* Wraps content on smaller screens */
+}
+
+.goals-text {
+    flex: 1; /* Makes text fill remaining space */
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.goals-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-intro,
+    .goals-content {
+        flex-direction: column; /* Stack content vertically on small screens */
+    }
+
+    .about-image img,
+    .goals-image img {
+        max-width: 100%; /* Ensure images fit smaller screens */
+    }
+
+    .about-text,
+    .goals-text {
+        text-align: center; /* Center text for smaller screens */
+    }
+}
