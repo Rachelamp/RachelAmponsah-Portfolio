@@ -118,6 +118,11 @@ body, html {
     line-height: 1.6;
 }
 
+/* About Page Background */
+body.about-page {
+    background-color: #E2D1C7; /* Sets the background color */
+}
+
 /* Goals Section */
 .goals-section {
     margin-top: 50px;
