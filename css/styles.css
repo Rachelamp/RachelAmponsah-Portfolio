@@ -87,7 +87,7 @@ body, html {
     margin: 0 auto; /* Center the flipbook on the page */
     position: relative; /* Required for Turn.js */
     background-color: transparent; /* Ensure no unwanted background shows */
-    overflow: hidden; /* Prevent overflow issues */
+   
 
 }
 
