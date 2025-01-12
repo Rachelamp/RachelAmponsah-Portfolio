@@ -86,7 +86,7 @@ body, html {
     height: 595px; /* Match the height of pages */
     margin: 0 auto; /* Center the flipbook on the page */
     position: relative; /* Required for Turn.js */
-    background-color: transparent; /* Ensure no unwanted background shows */
+   
    
 
 }
