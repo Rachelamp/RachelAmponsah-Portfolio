@@ -104,6 +104,6 @@ body, html {
 .page img {
     width: 100%; /* Scale image to fit width */
     height: 100%; /* Scale image to fit height */
-    object-fit: cover; /* Ensures images don’t stretch or distort */
+    object-fit: contain; /* Ensures images don’t stretch or distort */
 }
 
