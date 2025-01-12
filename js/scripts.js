@@ -5,6 +5,7 @@ $(document).ready(function () {
         autoCenter: true,
         elevation: 50,
     });
+    console.log('Flipbook initialized');
 });
 
 console.log('jQuery version:', $.fn.jquery); // Check if jQuery is loaded
