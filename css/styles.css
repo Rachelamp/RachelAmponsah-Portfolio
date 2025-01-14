@@ -101,7 +101,7 @@ body, html {
 .about-intro {
     display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: right; /* Align items to the left */
     margin-right: 50px; /*it was htis line"*/
 }
@@ -124,6 +124,7 @@ body, html {
     line-height: 1.6;
     font-size: 1rem;
     text-align: left;
+    margin-left: 20px;
 }
 
 /* About Page Background */
