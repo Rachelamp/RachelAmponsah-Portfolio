@@ -224,3 +224,27 @@ body.software-page {
 .page-footer {
     margin-bottom: 50px; 
 }
+
+
+#flipbook {
+    width: 420px; /* Match the width of pages */
+    height: 595px; /* Match the height of pages */
+    margin: 0 auto; /* Center the flipbook on the page */
+    position: relative; /* Required for Turn.js */
+} 
+ 
+.page {
+    width: 100%; /* Matches flipbook width */
+    height: 100%; /* Matches flipbook height */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Optional for better visibility */
+}
+
+.page img {
+    width: 100%; /* Scale image to fit width */
+    height: 100%; /* Scale image to fit height */
+    object-fit: contain; /* Ensures images don’t stretch or distort */
+}
