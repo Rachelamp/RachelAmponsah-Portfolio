@@ -167,7 +167,7 @@ body.software-page {
 }
 
 .music-video {
-    max-width: 600px; /* Set the maximum width */
+    max-width: 200px; /* Set the maximum width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure it's treated as a block element */
     margin: 20px auto; /* Center the video with margin */
