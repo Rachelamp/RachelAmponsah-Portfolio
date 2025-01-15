@@ -94,8 +94,12 @@ body, html {
 
 .about-header {
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Change to the desired text color */
 }
  /* About Intro Section */
 .about-intro {
