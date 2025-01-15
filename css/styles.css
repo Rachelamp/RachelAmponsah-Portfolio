@@ -99,32 +99,29 @@ body, html {
 }
  /* About Intro Section */
 .about-intro {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    justify-content: right; /* Align items to the left */
-    margin-right: 50px; /*it was htis line"*/
+    display: flex; /* Enables flexbox for side-by-side alignment */
+    gap: 30px; /* Adds spacing between the image and text */
+    align-items: flex-start; /* Aligns items to the top */
+    margin-bottom: 50px;
+}
+
+.about-image {
+    flex: 0 0 auto; /* Prevents the image from shrinking */
+    max-width: 50%; /* Ensures the image doesn't take too much space */
 }
 
 .about-image img {
     width: 100%;
-    max-width: 500px;
-    height: auto;
+    height: auto; /* Ensures the image scales proportionally */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
-
-.about-image{
-    flex: 0 0 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for aesthetics */
 }
 
 .about-text {
-    flex: 1;
-    line-height: 1.6;
+    flex: 1; /* Allows the text to fill the remaining space */
+    line-height: 1.6; /* Improves readability */
     font-size: 1rem;
     text-align: left;
-    margin-left: 20px;
 }
 
 /* About Page Background */
