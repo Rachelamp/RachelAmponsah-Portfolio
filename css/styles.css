@@ -167,10 +167,12 @@ body.software-page {
 }
 
 .music-video {
-    max-width: 200px; /* Set the maximum width */
+    width: 100%; /* Adjust width to fit the parent container */
+    max-width: 50px; /* Set maximum width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure it's treated as a block element */
-    margin: 20px auto; /* Center the video with margin */
+    display: block; 
+    margin: 20px auto; /* Center the video horizontally */
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    aspect-ratio: 16 / 9; /* Force a landscape aspect ratio */
 }
