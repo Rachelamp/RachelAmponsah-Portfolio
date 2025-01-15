@@ -166,3 +166,11 @@ body.software-page {
     background-color: #E2D1C7; /* Sets the background color */
 }
 
+.music-video {
+    max-width: 600px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's treated as a block element */
+    margin: 20px auto; /* Center the video with margin */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
