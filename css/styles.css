@@ -64,7 +64,7 @@ body.body-page {
 /* Hero Section */
 .hero {
     height: 100vh; /* Full screen height */
-    background-image: url('../images/Landscape.png'); /* Replace with your image */
+    background-image: url('../images/Landscape.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -79,7 +79,7 @@ body.body-page {
     font-family: 'Playfair Display', serif;
     font-size: 15rem;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 .hero-text p {
@@ -98,11 +98,11 @@ body.body-page {
 .about-header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px; /* Adjust the spacing as needed */
-    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; 
+    font-size: 2.5rem; 
     font-weight: bold;
     text-transform: uppercase;
-    color: #333; /* Change to the desired text color */
+    color: #333; 
 }
  /* About Intro Section */
 .about-intro {
@@ -171,11 +171,11 @@ body.music-page {
 .music-header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px; /* Adjust the spacing as needed */
-    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; 
+    font-size: 2.5rem; 
     font-weight: bold;
     text-transform: uppercase;
-    color: #333; /* Change to the desired text color */
+    color: #333;
 }
 
 
@@ -203,24 +203,24 @@ body.software-page {
 .software-content .project-image img {
     display: block;
     margin: 0 auto; /* Centers the image */
-    max-width: 60%; /* Adjust width for consistent sizing */
+    max-width: 60%; 
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Optional: Add a subtle border */
-    border-radius: 10px; /* Optional: Rounds the edges */
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
 }
 
 .software-header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px; /* Adjust the spacing as needed */
-    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 30px; 
+    font-size: 2.5rem; 
     font-weight: bold;
     text-transform: uppercase;
-    color: #333; /* Change to the desired text color */
+    color: #333; 
 }
 
 /*Footer*/
 
 .page-footer {
-    margin-bottom: 50px; /* Adjust this value to your preference */
+    margin-bottom: 50px; 
 }
