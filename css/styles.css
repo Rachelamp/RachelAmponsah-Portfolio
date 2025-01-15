@@ -211,3 +211,9 @@ body.software-page {
     text-transform: uppercase;
     color: #333; /* Change to the desired text color */
 }
+
+/*Footer*/
+
+.page-footer {
+    margin-bottom: 50px; /* Adjust this value to your preference */
+}
