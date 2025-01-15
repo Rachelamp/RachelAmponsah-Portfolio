@@ -166,13 +166,17 @@ body.software-page {
     background-color: #E2D1C7; /* Sets the background color */
 }
 
-.music-video {
-    width: 100%; /* Adjust width to fit the parent container */
-    max-width: 50px; /* Set maximum width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; 
-    margin: 20px auto; /* Center the video horizontally */
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
-    aspect-ratio: 16 / 9; /* Force a landscape aspect ratio */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
