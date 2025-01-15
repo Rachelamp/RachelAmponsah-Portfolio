@@ -171,9 +171,6 @@ body.music-page {
     color: #333; /* Change to the desired text color */
 }
 
-body.software-page {
-    background-color: #E2D1C7; /* Sets the background color */
-}
 
 .video-container {
     position: relative;
@@ -190,3 +187,17 @@ body.software-page {
     height: 100%;
 }
 
+ /*Software Page*/
+body.software-page {
+    background-color: #E2D1C7; /* Sets the background color */
+}
+
+/* Center and resize images in the projects section */
+.software-content .project-image img {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    max-width: 60%; /* Adjust width for consistent sizing */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a subtle border */
+    border-radius: 10px; /* Optional: Rounds the edges */
+}
