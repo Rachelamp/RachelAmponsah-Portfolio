@@ -156,3 +156,7 @@ body.about-page {
         text-align: center;
     }
 }
+
+body.music-page {
+    background-color: #E2D1C7; /* Sets the background color */
+}
