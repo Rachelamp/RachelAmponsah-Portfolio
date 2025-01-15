@@ -1,8 +1,8 @@
-$(document).ready(function () {
-    $('#flipbook').turn({
+(document).ready(function () {
+   $('#flipbook').turn({
         width: 420,  // width of frames
         height: 595, // height of frames
-        autoCenter: true,
+       autoCenter: true,
         elevation: 50,
     });
     console.log('Flipbook initialized');
