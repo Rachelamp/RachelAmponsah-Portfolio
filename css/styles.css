@@ -64,7 +64,7 @@ body.body-page {
 /* Hero Section */
 .hero {
     height: 100vh; /* Full screen height */
-    background-image: url('../images/Playfair\ Display\ \(3\).png'); 
+    background-image: url('../images/newlandscape.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
