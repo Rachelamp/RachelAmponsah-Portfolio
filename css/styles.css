@@ -134,6 +134,7 @@ body.body-page {
 /* About Page Background */
 body.about-page {
     background-color: #E2D1C7; /* Sets the background color */
+    background-image: url('../images/aboutlandscape.png'); 
 }
 
 /* Goals Section */
